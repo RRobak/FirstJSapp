@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title> kalkulator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <table class="numbers">
+            <tr>
+                <td colspan="3">
+                    <output id="Eq"></output>
+                </td>
+                <td rowspan="2">
+                    <button type="AC" class="ope" onclick="setzerotooutput()">AC</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <output id="pole">Numbers</output>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="7" onclick="display(7)">7</button>
+                </td>
+                <td>
+                    <button type="8" onclick="display(8)">8</button>
+                </td>
+                <td>
+                    <button type="9" onclick="display(9)">9</button>
+                </td>
+                <td>
+                    <button type="/" class="ope" onclick="math('/') ">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type=" 4 " onclick="display(4) ">4</button>
+                </td>
+                <td>
+                    <button type="5 " onclick="display(5) ">5</button>
+                </td>
+                <td>
+                    <button type="6 " onclick="display(6) ">6</button>
+                </td>
+                <td>
+                    <button type="* " class="ope" onclick="math('*') ">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="1 " onclick="display(1) ">1</button>
+                </td>
+                <td>
+                    <button type="2 " onclick="display(2) ">2</button>
+                </td>
+                <td>
+                    <button type="3 " onclick="display(3) ">3</button>
+                </td>
+                <td>
+                    <button type="- " class="ope" onclick="math('-') ">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="0 " onclick="display(0) ">0</button>
+                </td>
+                <td>
+                    <button type=", ">,</button>
+                </td>
+                <td>
+                    <button type="=" class="ope" onclick="resum() ">=</button>
+                </td>
+                <td>
+                    <button type="+ " class="ope" onclick="math('+') ">+</button>
+                </td>
+            </tr>
+
+    </div>
+    </table>
+
+</body>
+
+</html>
+
+</html>
